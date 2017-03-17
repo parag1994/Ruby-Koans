@@ -1,0 +1,290 @@
+AboutNil =>  nil_is_an_object
+AboutNil =>  you_dont_get_null_pointer_errors_when_calling_methods_on_nil
+AboutNil =>  nil_has_a_few_methods_defined_on_it
+
+AboutObjects =>  everything_is_an_object
+AboutObjects =>  objects_can_be_converted_to_strings
+AboutObjects =>  objects_can_be_inspected
+AboutObjects =>  every_object_has_an_id
+AboutObjects =>  every_object_has_different_id
+AboutObjects =>  small_integers_have_fixed_ids
+AboutObjects =>  clone_creates_a_different_object
+
+AboutArrays =>  creating_arrays
+AboutArrays =>  array_literals
+AboutArrays =>  accessing_array_elements
+AboutArrays =>  slicing_arrays
+AboutArrays =>  arrays_and_ranges
+AboutArrays =>  slicing_with_ranges
+AboutArrays =>  pushing_and_popping_arrays
+AboutArrays =>  shifting_arrays
+
+AboutArrayAssignment =>  non_parallel_assignment
+AboutArrayAssignment =>  parallel_assignments
+AboutArrayAssignment =>  parallel_assignments_with_extra_values
+AboutArrayAssignment =>  parallel_assignments_with_splat_operator
+AboutArrayAssignment =>  parallel_assignments_with_too_few_variables
+AboutArrayAssignment =>  parallel_assignments_with_subarrays
+AboutArrayAssignment =>  parallel_assignment_with_one_variable
+AboutArrayAssignment =>  swapping_with_parallel_assignment
+
+AboutHashes =>  creating_hashes
+AboutHashes =>  hash_literals
+AboutHashes =>  accessing_hashes
+AboutHashes =>  accessing_hashes_with_fetch
+AboutHashes =>  changing_hashes
+AboutHashes =>  hash_is_unordered
+AboutHashes =>  hash_keys
+AboutHashes =>  hash_values
+AboutHashes =>  combining_hashes
+AboutHashes =>  default_value
+AboutHashes =>  default_value_is_the_same_object
+AboutHashes =>  default_value_with_block
+
+AboutStrings =>  double_quoted_strings_are_strings
+AboutStrings =>  single_quoted_strings_are_also_strings
+AboutStrings =>  use_single_quotes_to_create_string_with_double_quotes
+AboutStrings =>  use_double_quotes_to_create_strings_with_single_quotes
+AboutStrings =>  use_backslash_for_those_hard_cases
+AboutStrings =>  use_flexible_quoting_to_handle_really_hard_cases
+AboutStrings =>  flexible_quotes_can_handle_multiple_lines
+AboutStrings =>  here_documents_can_also_handle_multiple_lines
+AboutStrings =>  plus_will_concatenate_two_strings
+AboutStrings =>  plus_concatenation_will_leave_the_original_strings_unmodified
+AboutStrings =>  plus_equals_will_concatenate_to_the_end_of_a_string
+AboutStrings =>  plus_equals_also_will_leave_the_original_string_unmodified
+AboutStrings =>  the_shovel_operator_will_also_append_content_to_a_string
+AboutStrings =>  the_shovel_operator_modifies_the_original_string
+AboutStrings =>  double_quoted_string_interpret_escape_characters
+AboutStrings =>  single_quoted_string_do_not_interpret_escape_characters
+AboutStrings =>  single_quotes_sometimes_interpret_escape_characters
+AboutStrings =>  double_quoted_strings_interpolate_variables
+AboutStrings =>  single_quoted_strings_do_not_interpolate
+AboutStrings =>  any_ruby_expression_may_be_interpolated
+AboutStrings =>  you_can_get_a_substring_from_a_string
+AboutStrings =>  you_can_get_a_single_character_from_a_string
+AboutStrings =>  in_modern_ruby_single_characters_are_represented_by_strings
+AboutStrings =>  strings_can_be_split
+AboutStrings =>  strings_can_be_split_with_different_patterns
+AboutStrings =>  strings_can_be_joined
+AboutStrings =>  strings_are_unique_objects
+
+AboutSymbols =>  symbols_are_symbols
+AboutSymbols =>  symbols_can_be_compared
+AboutSymbols =>  identical_symbols_are_a_single_internal_object
+AboutSymbols =>  method_names_become_symbols
+AboutSymbols =>  constants_become_symbols
+AboutSymbols =>  symbols_can_be_made_from_strings
+AboutSymbols =>  symbols_with_spaces_can_be_built
+AboutSymbols =>  symbols_with_interpolation_can_be_built
+AboutSymbols =>  to_s_is_called_on_interpolated_symbols
+AboutSymbols =>  symbols_are_not_strings
+AboutSymbols =>  symbols_do_not_have_string_methods
+AboutSymbols =>  symbols_cannot_be_concatenated
+AboutSymbols =>  symbols_can_be_dynamically_created
+
+AboutRegularExpressions =>  a_pattern_is_a_regular_expression
+AboutRegularExpressions =>  a_regexp_can_search_a_string_for_matching_content
+AboutRegularExpressions =>  a_failed_match_returns_nil
+AboutRegularExpressions =>  question_mark_means_optional
+AboutRegularExpressions =>  plus_means_one_or_more
+AboutRegularExpressions =>  asterisk_means_zero_or_more
+AboutRegularExpressions =>  the_left_most_match_wins
+AboutRegularExpressions =>  character_classes_give_options_for_a_character
+AboutRegularExpressions =>  slash_d_is_a_shortcut_for_a_digit_character_class
+AboutRegularExpressions =>  character_classes_can_include_ranges
+AboutRegularExpressions =>  slash_s_is_a_shortcut_for_a_whitespace_character_class
+AboutRegularExpressions =>  slash_w_is_a_shortcut_for_a_word_character_class
+AboutRegularExpressions =>  period_is_a_shortcut_for_any_non_newline_character
+AboutRegularExpressions =>  a_character_class_can_be_negated
+AboutRegularExpressions =>  shortcut_character_classes_are_negated_with_capitals
+AboutRegularExpressions =>  slash_a_anchors_to_the_start_of_the_string
+AboutRegularExpressions =>  slash_z_anchors_to_the_end_of_the_string
+AboutRegularExpressions =>  caret_anchors_to_the_start_of_lines
+AboutRegularExpressions =>  dollar_sign_anchors_to_the_end_of_lines
+AboutRegularExpressions =>  slash_b_anchors_to_a_word_boundary
+AboutRegularExpressions =>  parentheses_group_contents
+AboutRegularExpressions =>  parentheses_also_capture_matched_content_by_number
+AboutRegularExpressions =>  variables_can_also_be_used_to_access_captures
+AboutRegularExpressions =>  a_vertical_pipe_means_or
+AboutRegularExpressions =>  scan_is_like_find_all
+AboutRegularExpressions =>  sub_is_like_find_and_replace
+AboutRegularExpressions =>  gsub_is_like_find_and_replace_all
+
+AboutMethods =>  calling_global_methods
+AboutMethods =>  calling_global_methods_without_parentheses
+AboutMethods =>  sometimes_missing_parentheses_are_ambiguous
+AboutMethods =>  calling_global_methods_with_wrong_number_of_arguments
+AboutMethods =>  calling_with_default_values
+AboutMethods =>  calling_with_variable_arguments
+AboutMethods =>  method_with_explicit_return
+AboutMethods =>  method_without_explicit_return
+AboutMethods =>  calling_methods_in_same_class
+AboutMethods =>  calling_methods_in_same_class_with_explicit_receiver
+AboutMethods =>  calling_private_methods_without_receiver
+AboutMethods =>  calling_private_methods_with_an_explicit_receiver
+AboutMethods =>  calling_methods_in_other_objects_require_explicit_receiver
+AboutMethods =>  calling_private_methods_in_other_objects
+
+AboutKeywordArguments =>  keyword_arguments
+AboutKeywordArguments =>  keyword_arguments_with_wrong_number_of_arguments
+
+AboutConstants =>  nested_constants_may_also_be_referenced_with_relative_paths
+AboutConstants =>  top_level_constants_are_referenced_by_double_colons
+AboutConstants =>  nested_constants_are_referenced_by_their_complete_path
+AboutConstants =>  nested_classes_inherit_constants_from_enclosing_classes
+AboutConstants =>  subclasses_inherit_constants_from_parent_classes
+AboutConstants =>  who_wins_with_both_nested_and_inherited_constants
+AboutConstants =>  who_wins_with_explicit_scoping_on_class_definition
+
+AboutControlStatements =>  if_then_else_statements
+AboutControlStatements =>  if_then_statements
+AboutControlStatements =>  if_statements_return_values
+AboutControlStatements =>  if_statements_with_no_else_with_false_condition_return_value
+AboutControlStatements =>  condition_operators
+AboutControlStatements =>  if_statement_modifiers
+AboutControlStatements =>  unless_statement
+AboutControlStatements =>  unless_statement_evaluate_true
+AboutControlStatements =>  unless_statement_modifier
+AboutControlStatements =>  while_statement
+AboutControlStatements =>  break_statement
+AboutControlStatements =>  break_statement_returns_values
+AboutControlStatements =>  next_statement
+AboutControlStatements =>  for_statement
+AboutControlStatements =>  times_statement
+
+AboutTrueAndFalse =>  true_is_treated_as_true
+AboutTrueAndFalse =>  false_is_treated_as_false
+AboutTrueAndFalse =>  nil_is_treated_as_false_too
+AboutTrueAndFalse =>  everything_else_is_treated_as_true
+
+AboutTriangleProject =>  equilateral_triangles_have_equal_sides
+AboutTriangleProject =>  isosceles_triangles_have_exactly_two_sides_equal
+AboutTriangleProject =>  scalene_triangles_have_no_equal_sides
+
+AboutExceptions =>  exceptions_inherit_from_Exception
+AboutExceptions =>  rescue_clause
+AboutExceptions =>  raising_a_particular_error
+AboutExceptions =>  ensure_clause
+AboutExceptions =>  asserting_an_error_is_raised
+
+AboutTriangleProject2 =>  illegal_triangles_throw_exceptions
+
+AboutIteration =>  each_is_a_method_on_arrays
+AboutIteration =>  iterating_with_each
+AboutIteration =>  each_can_use_curly_brace_blocks_too
+AboutIteration =>  break_works_with_each_style_iterations
+AboutIteration =>  collect_transforms_elements_of_an_array
+AboutIteration =>  select_selects_certain_items_from_an_array
+AboutIteration =>  find_locates_the_first_element_matching_a_criteria
+AboutIteration =>  inject_will_blow_your_mind
+AboutIteration =>  all_iteration_methods_work_on_any_collection_not_just_arrays
+
+AboutBlocks =>  methods_can_take_blocks
+AboutBlocks =>  blocks_can_be_defined_with_do_end_too
+AboutBlocks =>  blocks_can_take_arguments
+AboutBlocks =>  methods_can_call_yield_many_times
+AboutBlocks =>  methods_can_see_if_they_have_been_called_with_a_block
+AboutBlocks =>  block_can_affect_variables_in_the_code_where_they_are_created
+AboutBlocks =>  blocks_can_be_assigned_to_variables_and_called_explicitly
+AboutBlocks =>  stand_alone_blocks_can_be_passed_to_methods_expecting_blocks
+AboutBlocks =>  methods_can_take_an_explicit_block_argument
+
+AboutSandwichCode =>  counting_lines
+AboutSandwichCode =>  finding_lines
+AboutSandwichCode =>  counting_lines2
+AboutSandwichCode =>  finding_lines2
+AboutSandwichCode =>  open_handles_the_file_sandwich_when_given_a_block
+
+AboutScoringProject =>  score_of_an_empty_list_is_zero
+AboutScoringProject =>  score_of_a_single_roll_of_5_is_50
+AboutScoringProject =>  score_of_a_single_roll_of_1_is_100
+AboutScoringProject =>  score_of_multiple_1s_and_5s_is_the_sum_of_individual_scores
+AboutScoringProject =>  score_of_single_2s_3s_4s_and_6s_are_zero
+AboutScoringProject =>  score_of_a_triple_1_is_1000
+AboutScoringProject =>  score_of_other_triples_is_100x
+AboutScoringProject =>  score_of_mixed_is_sum
+
+AboutClasses =>  instances_of_classes_can_be_created_with_new
+AboutClasses =>  instance_variables_can_be_set_by_assigning_to_them
+AboutClasses =>  instance_variables_cannot_be_accessed_outside_the_class
+AboutClasses =>  you_can_politely_ask_for_instance_variable_values
+AboutClasses =>  you_can_rip_the_value_out_using_instance_eval
+AboutClasses =>  you_can_create_accessor_methods_to_return_instance_variables
+AboutClasses =>  attr_reader_will_automatically_define_an_accessor
+AboutClasses =>  attr_accessor_will_automatically_define_both_read_and_write_accessors
+AboutClasses =>  initialize_provides_initial_values_for_instance_variables
+AboutClasses =>  args_to_new_must_match_initialize
+AboutClasses =>  different_objects_have_different_instance_variables
+AboutClasses =>  inside_a_method_self_refers_to_the_containing_object
+AboutClasses =>  to_s_provides_a_string_version_of_the_object
+AboutClasses =>  to_s_is_used_in_string_interpolation
+AboutClasses =>  inspect_provides_a_more_complete_string_version
+AboutClasses =>  all_objects_support_to_s_and_inspect
+
+AboutOpenClasses =>  as_defined_dogs_do_bark
+AboutOpenClasses =>  after_reopening_dogs_can_both_wag_and_bark
+AboutOpenClasses =>  even_existing_built_in_classes_can_be_reopened
+
+AboutDiceProject =>  can_create_a_dice_set
+AboutDiceProject =>  rolling_the_dice_returns_a_set_of_integers_between_1_and_6
+AboutDiceProject =>  dice_values_do_not_change_unless_explicitly_rolled
+AboutDiceProject =>  dice_values_should_change_between_rolls
+AboutDiceProject =>  you_can_roll_different_numbers_of_dice
+
+AboutInheritance =>  subclasses_have_the_parent_as_an_ancestor
+AboutInheritance =>  all_classes_ultimately_inherit_from_object
+AboutInheritance =>  subclasses_inherit_behavior_from_parent_class
+AboutInheritance =>  subclasses_add_new_behavior
+AboutInheritance =>  subclasses_can_modify_existing_behavior
+AboutInheritance =>  subclasses_can_invoke_parent_behavior_via_super
+AboutInheritance =>  super_does_not_work_cross_method
+
+AboutModules =>  cant_instantiate_modules
+AboutModules =>  normal_methods_are_available_in_the_object
+AboutModules =>  module_methods_are_also_available_in_the_object
+AboutModules =>  module_methods_can_affect_instance_variables_in_the_object
+AboutModules =>  classes_can_override_module_methods
+
+AboutScope =>  dog_is_not_available_in_the_current_scope
+AboutScope =>  you_can_reference_nested_classes_using_the_scope_operator
+AboutScope =>  bare_bones_class_names_assume_the_current_scope
+AboutScope =>  nested_string_is_not_the_same_as_the_system_string
+AboutScope =>  use_the_prefix_scope_operator_to_force_the_global_scope
+AboutScope =>  constants_are_defined_with_an_initial_uppercase_letter
+AboutScope =>  class_names_are_just_constants
+AboutScope =>  constants_can_be_looked_up_explicitly
+AboutScope =>  you_can_get_a_list_of_constants_for_any_class_or_module
+
+AboutClassMethods =>  objects_are_objects
+AboutClassMethods =>  classes_are_classes
+AboutClassMethods =>  classes_are_objects_too
+AboutClassMethods =>  objects_have_methods
+AboutClassMethods =>  classes_have_methods
+AboutClassMethods =>  you_can_define_methods_on_individual_objects
+AboutClassMethods =>  other_objects_are_not_affected_by_these_singleton_methods
+AboutClassMethods =>  since_classes_are_objects_you_can_define_singleton_methods_on_them_too
+AboutClassMethods =>  class_methods_are_independent_of_instance_methods
+AboutClassMethods =>  classes_and_instances_do_not_share_instance_variables
+AboutClassMethods =>  you_can_define_class_methods_inside_the_class
+AboutClassMethods =>  class_statements_return_the_value_of_their_last_expression
+AboutClassMethods =>  self_while_inside_class_is_class_object_not_instance
+AboutClassMethods =>  you_can_use_self_instead_of_an_explicit_reference_to_dog
+AboutClassMethods =>  heres_still_another_way_to_write_class_methods
+AboutClassMethods =>  heres_an_easy_way_to_call_class_methods_from_instance_methods
+
+AboutMessagePassing =>  methods_can_be_called_directly
+AboutMessagePassing =>  methods_can_be_invoked_by_sending_the_message
+AboutMessagePassing =>  methods_can_be_invoked_more_dynamically
+AboutMessagePassing =>  send_with_underscores_will_also_send_messages
+AboutMessagePassing =>  classes_can_be_asked_if_they_know_how_to_respond
+AboutMessagePassing =>  sending_a_message_with_arguments
+AboutMessagePassing =>  sending_undefined_messages_to_a_typical_object_results_in_errors
+AboutMessagePassing =>  calling_method_missing_causes_the_no_method_error
+AboutMessagePassing =>  all_messages_are_caught
+AboutMessagePassing =>  catching_messages_makes_respond_to_lie
+AboutMessagePassing =>  foo_method_are_caught
+AboutMessagePassing =>  non_foo_messages_are_treated_normally
+AboutMessagePassing =>  explicitly_implementing_respond_to_lets_objects_tell_the_truth
+
+AboutProxyObjectProject =>  proxy_method_returns_wrapped_object
